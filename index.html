@@ -7,8 +7,7 @@
     <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
-    <main class="flex flex-col">
-    <header class="flex w-screen justify-between">
+    <header class="flex w-screen justify-between bg-white">
         <nav class="order-2">
             <ul class="flex gap-5 -inset-e-full font-extrabold">
                 <li><a href="#">Research</a></li>
@@ -22,25 +21,54 @@
                 class="size-10">
             </ul>
         </nav>
-        <div class="order-1">
+        <div class="order-1 w-32 transition-all duration-300">
         <img src="/src/assets/images/Logo_LMU.svg" alt="LMU1">
         <img src="/src/assets/images/Logo_LMU(1).svg" alt="">
         </div>
     </header>
-    <menu class="flex">
-     <div class=" absolute -z-20 object-cover">
+    <section class="flex mb-0">
+     <div class="-z-20 object-cover w-screen">
         <img src="/src/assets/images/image.jpg" alt="back">
-    </div>
-    <div class= "relative bg-white cursor-pointer z-20 h-80 mt-80 ml-162.5 mr-13 w-screen">
-        <h1 class="text-black text-xl hover:text-green-50 p-10"> <span class= "font-extrabold">The rhythm of life</span>
+     </div>
+    <div class= " bg-black cursor-pointer z-20 h-100 w-150 object-bottom-right">
+        <h1 class="text-black text-xl hover:text-green-100 p-10"> <span class= "font-extrabold">The rhythm of life</span>
             How regular repetition structures humans, society, and natural processes. The new issue of our=r digital magazine "LMU Research and Innovtion is online!</h1>
-        </div>
-    </menu>
-        <section>
-            <div class=" grid grid-cols-2 border">
+     </div>
+    </section>
 
+    <div class="grid grid-cols-5 auto-rows-[200px]">
+                <div class="col-start-2 col-end-3 bg-black text-white font-bold">
+                    <h1>Signals from the deep:
+                        brain rythms distinguish states of consciiousness
+                    </h1>
+                </div>
+                <div class="col-start-3 col-end-4 bg-gray-300 text-black font-bold ">
+                    <h1>
+                        Franz Schubert's "Fair Maid of the Mill" and it's background in Berlin
+                    </h1>
+                </div>
+                <div class="col-start-3 col-end-4 bg-black text-white font-bold">
+                    <h1 >Munich Climate School:Tackling the climate crisis trough an indisplinary approach
+                    </h1>
+                </div>
+                <div class="col-start-4 col-end-5 bg-green-700 text-white font-bold">
+                    <h1>
+                        To the Newsroom
+                    </h1>
+                </div>  
             </div>
-        </section>
-    </main>
+            <div class="grid grid-cols-5 auto-rows[150px]">
+                <div class="col-span-5">
+                    <h1>Research at LMU</h1>
+                    <p>LMU is one of the Europe's leadins research institutions. With its highly diversified array of disciplines, it has outstanding potential for pioneering research.</p>
+                </div>
+                <div class="col-span-2 col-start-2">
+                    <img src="/src/assets/images/prof.jpg" alt=""
+                    class="-z-10">
+                </div>
+                <div class="col-start-4 col-end-5 bg-black text-white font-bold">
+                    <h1>Research</h1>
+                </div>
+            </div>    
 </body>
 </html>
